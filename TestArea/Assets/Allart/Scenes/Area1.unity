@@ -2035,6 +2035,15 @@ MonoBehaviour:
     volume: 1
     volumeVariance: 0
     pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Running
+    clip: {fileID: 8300000, guid: 7ced21225d88d8f43bfe7cc9e4daefaf, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
     pitchVariance: 1
     loop: 1
     mixerGroup: {fileID: 0}

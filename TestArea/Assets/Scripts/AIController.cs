@@ -65,6 +65,7 @@ public class AIController : MonoBehaviour
         {
             Patroling();
             FindObjectOfType<AudioManager>().Play("Spotted");
+            
         }
     }
 
