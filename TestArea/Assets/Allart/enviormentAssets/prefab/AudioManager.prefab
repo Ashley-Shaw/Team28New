@@ -82,3 +82,21 @@ MonoBehaviour:
     loop: 1
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
+  - name: Caught
+    clip: {fileID: 8300000, guid: 6c8df6a7209cd2a468c2d1f53030e3af, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ChaseMusic
+    clip: {fileID: 8300000, guid: e1331e1dd3065c14e9a4b997f9ef2c09, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

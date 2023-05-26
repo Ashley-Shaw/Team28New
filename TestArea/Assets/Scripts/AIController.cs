@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -35,8 +36,10 @@ public class AIController : MonoBehaviour
     bool m_IsPatrol;                                //  If the enemy is patrol, state of patroling
     bool m_CaughtPlayer;                            //  if the enemy has caught the player
 
+    //public AudioSource chase;
     void Start()
     {
+        
         m_PlayerPosition = Vector3.zero;
         m_IsPatrol = true;
         m_CaughtPlayer = false;
@@ -51,21 +54,31 @@ public class AIController : MonoBehaviour
         navMeshAgent.isStopped = false;
         navMeshAgent.speed = speedWalk;             //  Set the navemesh speed with the normal speed of the enemy
         navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);    //  Set the destination to the first waypoint
-    }
 
+        
+    }
+    
     private void Update()
     {
             EnviromentView();                       //  Check whether or not the player is in the enemy's field of vision
+            
 
         if (!m_IsPatrol)
         {
             Chasing();
+            
         }
         else
         {
             Patroling();
+            
+            
+            
             FindObjectOfType<AudioManager>().Play("Spotted");
             
+            
+
+
         }
     }
 

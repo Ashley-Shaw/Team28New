@@ -23,6 +23,7 @@ public class KillPlayer : MonoBehaviour
 
         if (otherObject.transform.tag == "Player")
         {
+            FindObjectOfType<AudioManager>().Play("Caught");
             otherObject.GetComponent<Player>().takeDamage(damage);
         }
     }
