@@ -75,8 +75,9 @@ public class AIController : MonoBehaviour
             
             
             FindObjectOfType<AudioManager>().Play("Spotted");
-            
-            
+            FindObjectOfType<AudioManager>().Play("ChaseMusic");
+
+
 
 
         }
