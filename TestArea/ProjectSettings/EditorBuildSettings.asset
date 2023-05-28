@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Allart/Scenes/level3/Level3Example.unity
     guid: 84abc8ff25bd6dc43b267ace484ca2fe
+  - enabled: 1
+    path: Assets/Allart/Scenes/void.unity
+    guid: d88da858f2c5a0645b34030ecd019b6c
   m_configObjects: {}
