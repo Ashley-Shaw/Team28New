@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.3679245, g: 0, b: 0.22792473, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.018
+  m_FogDensity: 0.017
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.15952033, b: 0.2698731, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.4609478, b: 0.74863315, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -37284,6 +37284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  v1: -0.49
+  v2: 7.8
+  v3: -458
   mainCamera: {fileID: 0}
 --- !u!114 &831889778
 MonoBehaviour:
