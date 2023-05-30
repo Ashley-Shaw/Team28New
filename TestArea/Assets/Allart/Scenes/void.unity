@@ -575,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 7434148498485478712, guid: 819444f911d0b604da9e95e3f6e1b287,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7434148498485478712, guid: 819444f911d0b604da9e95e3f6e1b287,
         type: 3}
@@ -644,6 +644,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 819444f911d0b604da9e95e3f6e1b287, type: 3}
+--- !u!1 &161346289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161346292}
+  - component: {fileID: 161346291}
+  - component: {fileID: 161346293}
+  m_Layer: 0
+  m_Name: Killbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &161346291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161346289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1000, y: 50, z: 1000}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &161346292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161346289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.6, y: -85.1, z: 7.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &161346293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161346289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9572e6357615ddd439ca3b457bdeed35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &195791786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8020684400807225340, guid: 07c37ecd0b5b8164bbd1077dc157d53c,
@@ -673,7 +731,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &255795847
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1715,7 +1773,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e4c41e38eee76754897c7c324d5cb3c7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e4c41e38eee76754897c7c324d5cb3c7,
         type: 3}
@@ -1998,7 +2056,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d3f098abba1b8be41a7f61c173d4e3e6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d3f098abba1b8be41a7f61c173d4e3e6,
         type: 3}
@@ -7677,7 +7735,7 @@ PrefabInstance:
     - target: {fileID: 2113774392055685138, guid: 8578d137269cdbd41b8126617c774354,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2113774392055685138, guid: 8578d137269cdbd41b8126617c774354,
         type: 3}
@@ -8367,9 +8425,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSController
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
